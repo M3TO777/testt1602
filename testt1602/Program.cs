@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, ISMA!");
+﻿Console.WriteLine("Въведете възраст:");
+int age = int.Parse(Console.ReadLine());
+if(age < 18)
+{
+    Console.WriteLine("Непълнолетен");
+}
+else if(age > 18)
+{
+    Console.WriteLine("Пълнолетен");
+}
