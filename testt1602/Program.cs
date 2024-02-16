@@ -1,10 +1,12 @@
 ﻿Console.WriteLine("Въведете възраст:");
 int age = int.Parse(Console.ReadLine());
-if(age < 18)
+
+switch(age)
 {
-    Console.WriteLine("Непълнолетен");
-}
-else if(age > 18)
-{
-    Console.WriteLine("Пълнолетен");
+    case < 18:
+        Console.WriteLine("Непълнолетен");
+        break;
+    case > 18:
+        Console.WriteLine("Пълнолетен");
+        break;
 }
